@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="accet\css\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- --------------------------------------------------super nav section star -->
+
+
+    <!-- <div class="superNav shadow py-2">
+    <div class="container">
+      
+        <div class="centerOnMobile">
+       
+          <span class="super-nav-text  me-3">
+            <i class="fa-solid fa-envelope"></i>
+            <strong>info@somedomain.com</strong>
+          </span>
+          <span class="super-nav-text me-3">
+            <i class="fa-solid fa-phone"></i>
+            <strong>1-800-123-1234</strong>
+          </span>
+        </div>
+      
+      
+    </div>
+  </div> -->
+
+    <!-- --------------------------------------------------super nav section star -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------------------------navbar section start -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+                <li class="nav-link"><a href="#">Category</a></li>
+
+            </ul>
+            <div class="logo">
+                <img src="./accet/images/logo-3-01.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- ------------------------------------------------navbar section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -----------------------------------------------home section start -->
+    <section class=" home-back">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-9">
+                        <div class="homeHeading">
+                            <h2>
+                                Travel Bookings Made Easy</h2>
+                        </div>
+
+                        <div class="buttonFlight">
+                            <button class="fightButton" onclick="toggleActive(this)">Return</button>
+                        </div>
+
+                        <div class="buttonFlight2">
+                            <button class="fightButton2" onclick="toggleActive(this)">One Way</button>
+                        </div>
+                        <div class="glass">
+                            <div class="dropdown" id="dropdownContainer">
+                                <button onclick="toggleDropdown()" id="dropdownButton">Dropdown<svg
+                                        xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+                                        viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#ffffff"
+                                            d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                                    </svg></button>
+                                <div class="dropdown-content" id="myDropdown">
+                                    <a href="#" onmouseover="highlightOption(this)" onclick="setActive(0)">Option 1</a>
+                                    <a href="#" onmouseover="highlightOption(this)" onclick="setActive(1)">Option 2</a>
+                                    <a href="#" onmouseover="highlightOption(this)" onclick="setActive(2)">Option 3</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-12">
+                                    <div class="input-field">
+                                        <input type="text" required>
+                                        <label><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                <path fill="#ffffff"
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> From</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12">
+                                    <div class="input-field">
+                                        <input type="text" required>
+                                        <label><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+                                                viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                <path fill="#ffffff"
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> Destination</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12">
+                                    <div class="input-field go">
+                                        <input type="date" required>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12 arive">
+                                    <div class="input-field">
+                                        <input type="date" required>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 lowerForm ">
+                                    <div class="input-field">
+                                        <input type="text" required>
+                                        <label><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                <path fill="#ffffff"
+                                                    d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                                            </svg>Full Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 lowerForm ">
+                                    <div class="input-field">
+                                        <input type="email" required>
+                                        <label><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                <path fill="#ffffff"
+                                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                                            </svg>Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 lowerForm ">
+                                    <div class="input-field">
+                                        <input type="text" required>
+                                        <label><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+                                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                <path fill="#ffffff"
+                                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                                            </svg>phone</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-go">
+                                <button class="goButton"><svg xmlns="http://www.w3.org/2000/svg" height="45" width="50"
+                                        viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                        <path fill="#ffffff"
+                                            d="M400.1 194.8C389.2 197.6 380.2 199.1 371 202.4C363.7 204.3 356.3 206.3 347.8 208.5L347.2 208.6C343 209.8 342.6 209.9 338.7 205.4C334 200.1 330.6 196.7 324.1 193.5C304.4 183.9 285.4 186.7 267.7 198.2C246.5 211.9 235.6 232.2 235.9 257.4C236.2 282.4 253.3 302.9 277.1 306.3C299.1 309.1 316.9 301.7 330.9 285.8C333 283.2 334.9 280.5 337 277.5V277.5L337 277.5C337.8 276.5 338.5 275.4 339.3 274.2H279.2C272.7 274.2 271.1 270.2 273.3 264.9C277.3 255.2 284.8 239 289.2 230.9C290.1 229.1 292.3 225.1 296.1 225.1H397.2C401.7 211.7 409 198.2 418.8 185.4C441.5 155.5 468.1 139.9 506 133.4C537.8 127.8 567.7 130.9 594.9 149.3C619.5 166.1 634.7 188.9 638.8 218.8C644.1 260.9 631.9 295.1 602.1 324.4C582.4 345.3 557.2 358.4 528.2 364.3C522.6 365.3 517.1 365.8 511.7 366.3C508.8 366.5 506 366.8 503.2 367.1C474.9 366.5 449 358.4 427.2 339.7C411.9 326.4 401.3 310.1 396.1 291.2C392.4 298.5 388.1 305.6 382.1 312.3C360.5 341.9 331.2 360.3 294.2 365.2C263.6 369.3 235.3 363.4 210.3 344.7C187.3 327.2 174.2 304.2 170.8 275.5C166.7 241.5 176.7 210.1 197.2 184.2C219.4 155.2 248.7 136.8 284.5 130.3C313.8 124.1 341.8 128.4 367.1 145.6C383.6 156.5 395.4 171.4 403.2 189.5C405.1 192.3 403.8 193.9 400.1 194.8zM48.3 200.4C47.1 200.4 46.7 199.8 47.4 198.8L53.9 190.4C54.5 189.5 56.1 188.9 57.3 188.9H168.6C169.8 188.9 170.1 189.8 169.5 190.7L164.2 198.8C163.6 199.8 162 200.7 161.1 200.7L48.3 200.4zM1.2 229.1C0 229.1-.3 228.4 .3 227.5L6.9 219.1C7.5 218.2 9 217.5 10.3 217.5H152.4C153.6 217.5 154.2 218.5 153.9 219.4L151.4 226.9C151.1 228.1 149.9 228.8 148.6 228.8L1.2 229.1zM75.7 255.9C75.1 256.8 75.4 257.7 76.7 257.7L144.6 258C145.5 258 146.8 257.1 146.8 255.9L147.4 248.4C147.4 247.1 146.8 246.2 145.5 246.2H83.2C82 246.2 80.7 247.1 80.1 248.1L75.7 255.9zM577.2 237.9C577 235.3 576.9 233.1 576.5 230.9C570.9 200.1 542.5 182.6 512.9 189.5C483.9 196 465.2 214.4 458.4 243.7C452.8 268 464.6 292.6 487 302.6C504.2 310.1 521.3 309.2 537.8 300.7C562.4 287.1 575.8 268 577.4 241.2C577.3 240 577.3 238.9 577.2 237.9z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="mainCreacter">
+                            <img src="./accet/images/girl.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------------home section end -->
+
+
+
+
+
+
+
+    <script>
+        // function toggleActive(button) {
+        //     var buttons = document.querySelectorAll('.fightButton, .fightButton2');
+        //     buttons.forEach(function (btn) {
+        //         btn.classList.remove('active');
+        //     });
+
+        //     button.classList.add('active');
+        // }
+        var highlightedOption = null;
+
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("myDropdown");
+            dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+        }
+
+        function setActive(index) {
+            var dropdownOptions = document.querySelectorAll(".dropdown-content a");
+            var dropdownButton = document.getElementById("dropdownButton");
+
+            // Remove active class from all options
+            dropdownOptions.forEach(function (option) {
+                option.classList.remove("active");
+            });
+
+            // Add active class to the clicked option
+            dropdownOptions[index].classList.add("active");
+
+            // Update the button text with the selected option
+            dropdownButton.innerHTML = dropdownOptions[index].innerHTML;
+
+            // Hide the dropdown content after selection
+            toggleDropdown();
+        }
+
+        function highlightOption(option) {
+            if (highlightedOption) {
+                highlightedOption.classList.remove("highlighted");
+            }
+
+            highlightedOption = option;
+            option.classList.add("highlighted");
+        }
+
+        // Close the dropdown when clicking anywhere on the screen
+        document.addEventListener("click", function (event) {
+            var dropdownContainer = document.getElementById("dropdownContainer");
+            if (!dropdownContainer.contains(event.target)) {
+                var dropdownContent = document.getElementById("myDropdown");
+                dropdownContent.style.display = "none";
+
+                if (highlightedOption) {
+                    highlightedOption.classList.remove("highlighted");
+                    highlightedOption = null;
+                }
+            }
+        });
+
+        function toggleActive(button) {
+            var ariveInput = document.querySelector('.col-lg-3.arive input');
+
+            if (button.classList.contains('active')) {
+                // If "One Way" is active, disable the arive input field
+                ariveInput.disabled = true;
+            } else {
+                // If "Return" is active, enable the arive input field
+                ariveInput.disabled = false;
+            }
+
+            // Toggle the active class on the button
+            button.classList.toggle('active');
+        }
+
+
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
